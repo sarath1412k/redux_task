@@ -1,0 +1,122 @@
+.presc-form{
+    margin: 1rem auto;
+    border: 0px solid black;
+}
+.input-seg{
+    position: relative;
+    margin-bottom: 15px;
+}
+.legend-label{
+    position: absolute;
+    top: -6px;
+    left: 10px;
+    font-size: 10px;
+    background-color: white;
+    padding: 0 5px;
+    margin: 0 7px;
+}
+.important{
+    font-weight: bold;
+}
+.input-seg>input{
+    width: 95%;
+    height: 43px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 3px;
+}
+.input-seg3{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    justify-content: space-around;
+}
+.checkbox-label{
+    font-size: 12px;
+    align-items: center;
+    padding-left: 5px;
+    top: -8px !important;
+}
+.input-layout{
+    width: 95%;
+    align-items: center;
+    min-height: 48px;
+    max-height: fit-content;
+    border: 1px solid rgb(200, 200, 200);
+    justify-content: space-around; 
+    display: flex;
+	overflow: hidden;
+    padding: 7px 0px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.input-seg2 > label{
+    font-size: 10px;
+    text-align: center;
+    align-items: center;
+}
+.duration-input{
+    width: 4rem;
+    border-radius: 7px;
+    height: 24px;
+    border: 1px solid rgb(200, 200, 200);
+}
+.duration-select{
+    width: 8rem;
+    border-radius: 7px;
+    height: 24px;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+.switch-field {
+	display: flex;
+	overflow: hidden;
+    border: 0px solid black;
+    justify-content: space-around;
+    padding: 7px 0px;
+    background-color:rgb(194, 194, 194);
+    border-radius: 5px;
+    width: 95%;
+}
+
+.switch-field input {
+	position: absolute !important;
+	clip: rect(0, 0, 0, 0);
+	height: 1px;
+	width: 1px;
+	border: 1px solid black;
+	overflow: hidden;
+    margin: auto;
+}
+
+.switch-field label {
+	background-color: rgb(194, 194, 194);
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 14px;
+	line-height: 1;
+	text-align: center;
+	padding: 12px 26px;
+	margin-right: 4px;
+	border: 0px solid rgba(0, 0, 0, 0.2);
+	transition: all 0.1s ease-in-out;
+    border-radius: 6px;
+}
+
+.switch-field label:hover {
+	cursor: pointer;
+}
+
+.switch-field input:checked + label {
+	background-color: white;
+	box-shadow: none;
+}
+.btn-container{
+    margin:2rem 0px;
+}
+.add-btn{
+    font-weight: bold;
+    float: right;
+}
+
+
+
